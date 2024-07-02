@@ -7,6 +7,8 @@ Bem-vindo ao projeto de Gestão de Colaboradores! Este projeto é uma aplicaçã
 
 Este projeto é uma aplicação Angular desenvolvida para gerenciar colaboradores, incluindo funcionalidades para adicionar, editar, listar e remover colaboradores. A aplicação é projetada para ser simples e eficiente, com uma interface amigável.
 
+Você pode acessar a aplicação [aqui](http://turma-front-gabrielmauricio.s3-website-sa-east-1.amazonaws.com/).
+
 ## 🚀 Funcionalidades
 
 - ➕ **Adicionar Colaboradores**: Adicione novos colaboradores ao sistema.
@@ -26,8 +28,8 @@ Este projeto é uma aplicação Angular desenvolvida para gerenciar colaboradore
 
 Para mais informações ou perguntas, entre em contato:
 
-- Email: seu-email@example.com
-- GitHub: seu-usuario
-- LinkedIn: Seu Nome
+- Email: mauriciorjgabriel@gmail.com
+- GitHub: gabriel-mauricioo
+- LinkedIn: [Gabriel Mauricio](https:www.linkedin.com/in/gabrielmauricioo)
 
 Esperamos que você aproveite este projeto! 🚀
