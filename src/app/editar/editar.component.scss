@@ -1,0 +1,69 @@
+.section-editar{
+    max-width: 100%;
+  // width: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* editar.component.scss */
+
+.titulo {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #4a4a72;
+  }
+  
+  input {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #4a4a72;
+  }
+  
+  button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #4a4a72;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3a3a62;
+  }
+  

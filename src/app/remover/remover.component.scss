@@ -1,0 +1,74 @@
+.section-remover{
+  max-width: 100%;
+  // width: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.titulo {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  
+  table {
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 40px 180px;
+  }
+  
+ 
+  thead th {
+    background-color: #6b1e1e;
+    color: white;
+    padding: 15px 150px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+  tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+
+  
+  td {
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  tbody tr:last-child {
+    border-bottom: none;
+  }
+  
+  button{
+    margin-top: 20px;
+    margin-left: 181px;
+    padding: 17px 25px;
+    background-color: #6b1e1e;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #38385c;
+  }
+  

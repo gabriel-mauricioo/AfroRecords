@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="container-1">
+      <aside>
+        <div class="sidebar">
+          <div class="logo" (click)="mostrarSecao('home')">
+            <a routerLink="/home">
+              <img src="assets/logo.png" alt="Logo">
+            </a>
+          </div>
+  
+          <div class="menu">
+            <button class="botao-menu" (click)="mostrarSecao('listar')">
+              <a routerLink="/listar">
+                <p>Mostrar colaboradores</p>
+              </a>
+            </button>
+            <button class="botao-menu" (click)="mostrarSecao('adicionar')">
+              <a routerLink="/adicionar">
+                <p>Adicionar colaboradores</p>
+              </a>
+            </button>
+            <button class="botao-menu" (click)="mostrarSecao('remover')">
+              <a routerLink="/remover">
+                <p>Remover colaboradores</p>
+              </a>
+            </button>
+            <button class="botao-menu" class="botao-menu" (click)="mostrarSecao('sair')">
+              <a routerLink="/sair">
+                <p>Sair do programa</p>
+              </a>
+            </button>
+          </div>
+        </div>
+      </aside>
+    </div>
+  
+    <div class="container-2">
+        <router-outlet></router-outlet>
+    </div>
+  
+
+</div>
+  

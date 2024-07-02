@@ -1,0 +1,25 @@
+  <div class="section-listar">
+    <h2 class="titulo">Veja todos os colaboradores da Afro Records</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="th-name">Nome</th>
+          <th class="th-cargo">Cargo</th>
+          <th class="th-acoes">Ações</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let colaborador of colaboradores">
+          <td>{{ colaborador.nome }}</td>
+          <td>{{ colaborador.cargo }}</td>
+          <td>
+            <button class="editar-button" (click)="editarColaborador(colaborador.id)">
+                <a >Editar</a>
+          </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+   

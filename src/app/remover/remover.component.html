@@ -1,0 +1,26 @@
+  
+<div class="section-remover">
+  <h2 class="titulo">Remova algum colaborador da Afrorecords</h2>
+  <form (ngSubmit)="removerColaboradores()">
+    <table>
+      <thead>
+        <tr>
+          <th class="seletor"></th>
+          <th class="th-name">Nome</th>
+          <th class="th-cargo">Cargo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let colaborador of colaboradores">
+          <td><input type="checkbox" [(ngModel)]="colaborador.selecionado" name="colaborador-{{colaborador.id}}"></td>
+          <td>{{ colaborador.nome }}</td>
+          <td>{{ colaborador.cargo }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <button  type="submit">Remover Selecionados</button>
+    </div>
+    
+  </form>
+</div>  

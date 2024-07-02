@@ -1,0 +1,12 @@
+<div class="section-editar">
+  <h2 class="titulo">Editar Colaborador</h2>
+  <form (ngSubmit)="salvar()">
+    <label for="nome">Nome:</label>
+    <input id="nome" [(ngModel)]="colaborador.nome" name="nome" required>
+    
+    <label for="cargo">Cargo:</label>
+    <input id="cargo" [(ngModel)]="colaborador.cargo" name="cargo" required>
+    
+    <button type="submit">Salvar</button>
+  </form>
+</div>
