@@ -14,36 +14,6 @@ Este projeto é uma aplicação Angular desenvolvida para gerenciar colaboradore
 - 📋 **Listar Colaboradores**: Veja a lista de todos os colaboradores.
 - ❌ **Remover Colaboradores**: Remova colaboradores da lista.
 
-## 🏗️ Estrutura do Projeto
-
-/src
-├── /app
-│ ├── /adicionar
-│ │ ├── adicionar.component.html
-│ │ ├── adicionar.component.scss
-│ │ ├── adicionar.component.ts
-│ ├── /editar
-│ │ ├── editar.component.html
-│ │ ├── editar.component.scss
-│ │ ├── editar.component.ts
-│ ├── /listar
-│ │ ├── listar.component.html
-│ │ ├── listar.component.scss
-│ │ ├── listar.component.ts
-│ ├── /remover
-│ │ ├── remover.component.html
-│ │ ├── remover.component.scss
-│ │ ├── remover.component.ts
-│ ├── /services
-│ ├── colaboradores.service.ts
-│ ├── app.module.ts
-│ ├── app.component.html
-│ ├── app.component.scss
-│ ├── app.component.ts
-
-
-
-
 ## 🔧 Tecnologias Utilizadas
 
 - 🅰️ **Angular** - Framework para construção de aplicações web.
