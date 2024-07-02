@@ -1,27 +1,63 @@
-# Records
+# 🛠️ AfroRecords - Painel de Gestão de colaboradores
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Bem-vindo ao projeto de Gestão de Colaboradores! Este projeto é uma aplicação Angular que permite adicionar, editar, listar e remover colaboradores. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Sobre o Projeto
 
-## Code scaffolding
+Este projeto é uma aplicação Angular desenvolvida para gerenciar colaboradores, incluindo funcionalidades para adicionar, editar, listar e remover colaboradores. A aplicação é projetada para ser simples e eficiente, com uma interface amigável.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Funcionalidades
 
-## Build
+- ➕ **Adicionar Colaboradores**: Adicione novos colaboradores ao sistema.
+- ✏️ **Editar Colaboradores**: Edite as informações dos colaboradores existentes.
+- 📋 **Listar Colaboradores**: Veja a lista de todos os colaboradores.
+- ❌ **Remover Colaboradores**: Remova colaboradores da lista.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🏗️ Estrutura do Projeto
 
-## Running unit tests
+/src
+├── /app
+│ ├── /adicionar
+│ │ ├── adicionar.component.html
+│ │ ├── adicionar.component.scss
+│ │ ├── adicionar.component.ts
+│ ├── /editar
+│ │ ├── editar.component.html
+│ │ ├── editar.component.scss
+│ │ ├── editar.component.ts
+│ ├── /listar
+│ │ ├── listar.component.html
+│ │ ├── listar.component.scss
+│ │ ├── listar.component.ts
+│ ├── /remover
+│ │ ├── remover.component.html
+│ │ ├── remover.component.scss
+│ │ ├── remover.component.ts
+│ ├── /services
+│ ├── colaboradores.service.ts
+│ ├── app.module.ts
+│ ├── app.component.html
+│ ├── app.component.scss
+│ ├── app.component.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## 🔧 Tecnologias Utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- 🅰️ **Angular** - Framework para construção de aplicações web.
+- 🛠️ **TypeScript** - Superconjunto do JavaScript que adiciona tipagem estática.
+- 🎨 **SCSS** - Preprocessador CSS para melhor organização e manutenção de estilos.
+- 📡 **HTTP Client** - Para comunicação com APIs.
+
+
+## ✉️ Contato
+
+Para mais informações ou perguntas, entre em contato:
+
+- Email: seu-email@example.com
+- GitHub: seu-usuario
+- LinkedIn: Seu Nome
+
+Esperamos que você aproveite este projeto! 🚀
